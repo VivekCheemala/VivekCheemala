@@ -151,3 +151,22 @@ a:hover{
   font-size: 0.75rem;
   padding: 20px 0;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.like__btn {
+  padding: 10px 15px;
+  background: #f9f9f9;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 5px;
+  color: #567bd3;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
